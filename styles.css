@@ -44,20 +44,37 @@ header{
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
-	font-family: serif;
+	font-family: poppins;
 	font-size: 60px;
 }
 .welcome-text h4{
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
-	font-family: serif;
+	font-family: poppins;
 	font-size: 14px;
 }
 .logo img{
 	width: 300px;
 	float: left;
 	height: auto;
+	cursor: pointer;
+}
+@media(max-width: 1000px){
+	header{
+		padding: 20px 50px;
+	}
+}
+@media (max-width: 700px){
+	header{
+		flex-direction: column;
+	}
+	header h2{
+		margin-bottom: 15px;
+	}
+	header nav li{
+		margin: 0 7px;
+	}
 }
 . . .
 /* Include padding and border in total box size*/
